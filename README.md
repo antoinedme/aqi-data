@@ -1,5 +1,9 @@
 # Air Quality Repository
-Manipulate AQI Singapore
+
+```
+This repository is under construction. It has the objective to put together interesting materials about AQI.
+The notebook is a quick example on how to retrieve AQI Singapore and to manipulate (just a bit) the JSON response.
+```
 
 The presentation:
 https://drive.google.com/file/d/1wWo7mnrPs5P9Uro_YVbBf0q94izF1wuh/view?usp=sharing
@@ -25,7 +29,6 @@ An animated image of GFS simulated total atmospheric ozone concentration
 4. GLDAS-2.1: Global Land Data Assimilation System
 
 This dataset provided by NASA ingest satellite- and ground-based observational data products, using advanced land surface modeling and data assimilation techniques, in order to generate optimal fields of land surface states and fluxes (Rodell et al., 2004a)
-
 
 
 https://www.kaggle.com/mhajabri/air-pollution-101
