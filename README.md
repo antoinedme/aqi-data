@@ -1,6 +1,8 @@
-# sg-aqi-data
+# Air Quality Repository
 Manipulate AQI Singapore
 
+The presentation:
+https://drive.google.com/file/d/1wWo7mnrPs5P9Uro_YVbBf0q94izF1wuh/view?usp=sharing
 
 The following datasets have been provided as a starter kit to get started with the competition. Let’s understand them briefly:
 1. Global Power Plant Database by World Resources Institute(WRI)
