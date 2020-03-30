@@ -21,6 +21,9 @@ There are currently more than 30,000 known air quality monitoring stations in th
 
 ![AQICN Platform](https://aqicn.org/images/sources/worldmap-2019.03-large.jpg)
 
+```
+https://api.data.gov.sg/v1/environment/psi/?date=2017-01-01
+```
 
 The following datasets have been provided as a starter kit to get started with the competition. Let’s understand them briefly:
 1. Global Power Plant Database by World Resources Institute(WRI)
