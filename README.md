@@ -1,11 +1,19 @@
-# Air Quality Repository
+# Air Quality, Pollution and Respiratory Diseases
 
 > This repository is under construction. It has the objective to put together interesting materials about AQI. The notebook is a quick example on how to retrieve AQI Singapore and to manipulate (just a bit) the JSON response.
+
+## Health Impact
+
+![Data Providers](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide02.jpeg)
+
+## How to find data?
 
 Challenges faced by open data platforms:
 - Make accurate and real-time transport data available to the public
 - Make this data available in an easy-to-use format
 - Create a sustainable and collaborative data environment that drives innovation
+
+![Data Providers](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide03.jpeg)
 
 The World Air Quality Project: https://aqicn.org
 
@@ -24,6 +32,20 @@ There are currently more than 30,000 known air quality monitoring stations in th
 ```
 https://api.data.gov.sg/v1/environment/psi/?date=2017-01-01
 ```
+
+## How to use them?
+
+
+![AQ Maps Data](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide04.jpeg)
+
+![Monitoring Stations](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide05.jpeg)
+
+
+
+## What insights?
+
+![Innovation](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide11.jpeg)
+
 
 The following datasets have been provided as a starter kit to get started with the competition. Let’s understand them briefly:
 1. Global Power Plant Database by World Resources Institute(WRI)
