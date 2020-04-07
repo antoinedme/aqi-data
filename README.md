@@ -39,6 +39,8 @@ https://api.data.gov.sg/v1/environment/psi/?date=2017-01-01
 
 ## How to use them?
 
+Air Quality Data can retrieved as Station Data (JSON, CSV, XLS TABLES) or as maps (GeoJSON, SHP). We will investigate different types.
+
 1. Sentinel 5P OFFL NO2
 
 Sentinel-5 Precursor (Sentinel-5P) is an Earth observation satellite developed by ESA as part of the Copernicus Programme. The Copernicus Programme is dedicated to monitoring air pollution and Sentinel 5P Precursor is its first mission. It consists of an instrument called Tropomi (TROPOspheric Monitoring Instrument) which is a spectrometer to monitor ozone, methane, formaldehyde, aerosol, carbon monoxide, NO2 and SO2 in the atmosphere.
