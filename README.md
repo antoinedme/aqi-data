@@ -67,5 +67,11 @@ This dataset provided by NASA ingest satellite- and ground-based observational d
 
 ![Innovation](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide11.jpeg)
 
-https://www.kaggle.com/mhajabri/air-pollution-101
-https://www.kaggle.com/niyamatalmass/let-s-analyze-our-air-that-we-take
+Read the article: https://www.forbes.com/sites/tracybrower/2020/01/05/how-to-jump-start-your-innovation-8-ways-to-be-more-innovative/#237ed60a3a12
+### How To Jump-Start Your Innovation: 8 Ways To Be More Innovative
+Tracy Brower
+
+
+
+https://www.forbes.com/sites/tracybrower/2020/01/05/how-to-jump-start-your-innovation-8-ways-to-be-more-innovative/#237ed60a3a12
+
