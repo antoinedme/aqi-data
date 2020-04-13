@@ -49,11 +49,21 @@ The OFFL/NO2 is a dataset that provides offline high-resolution imagery of NO2 c
 
 ![AQ Maps Data](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide04.jpeg)
 
+How to use maps: QGIS https://www.qgis.org/en/site/
+
+QGIS is a free and open-source cross-platform desktop geographic information system (GIS) application that supports viewing, editing, and analysis of geospatial data.
+
+Get started: https://www.qgis.org/en/site/forusers/index.html
+
 2. Global Power Plant Database by World Resources Institute(WRI)
 
 The Global Power plant database is a fully open-sourced(licensed under CC-BY 4.0.) and a comprehensive database that includes details of powerplants around the world. The database covers approximately 30,000 power plants from 164 countries and includes both thermal and renewable power plants.
 
 ![Monitoring Stations](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide05.jpeg)
+
+How to use stations data:
+
+https://github.com/antoinedme/aqi-data/blob/master/notebooks/read-singapore-data.ipynb
 
 3. Global Forecast System 384-Hour Predicted Atmosphere Data
 
