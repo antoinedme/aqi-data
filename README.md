@@ -8,8 +8,6 @@ Disability-adjusted life years or 'DALYs' have been used in this report to quant
 
 Quantifying the impact of asthma in terms of its burden, measured as DALYs, allows relative valuation of the impact of this disease-both overall and in subgroups of society-relative to other diseases. This has important consequences for health decision-making and planning processes. This report provides an indication of opportunities for health gain and will help guide the formation of health policy in relation to asthma. For example, interventions to reduce the Indigenous health gap in chronic respiratory disease burden and to improve the uptake of the key elements of effective asthma management-namely, a written asthma action plan and regular use of medications that control the disease and prevent exacerbations-represent two strategies likely to lead to reduced burden of disease attributable to asthma.
 
-![Data Providers](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide02.jpeg)
-
 ## How to find data?
 
 Challenges faced by open data platforms:
@@ -17,7 +15,7 @@ Challenges faced by open data platforms:
 - Make this data available in an easy-to-use format
 - Create a sustainable and collaborative data environment that drives innovation
 
-![Data Providers](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide03.jpeg)
+![Data Providers](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/ressources/open-data-apis.png)
 
 The World Air Quality Project: https://aqicn.org
 
@@ -32,6 +30,37 @@ You need to register in order to get a token: https://aqicn.org/data-platform/to
 There are currently more than 30,000 known air quality monitoring stations in the world, out of which more than 12,000 are published on the World Air Quality Index project. In order to keep a high level on consistency, only stations with particulate matter (PM2.5/PM10) readings are published. The AQI standard for every single published station is based on the US EPA Instant-Cast standard. 
 
 ![AQICN Platform](https://aqicn.org/images/sources/worldmap-2019.03-large.jpg)
+
+Example of JSON data received from: `api.waqi.info`
+```JSON
+{
+    "status": "ok",
+    "data": {
+        "aqi": 11, "idx": 12417, 
+        "attributions": [ {"url": "https://www.environment.nsw.gov.au/", "name": "Office of Environment and Heritage - NSW", "logo": "Australia-NSW.png"}, {"url": "https://waqi.info/", "name": "World Air Quality Index Project"}],
+        "city": { "geo": [ -33.872468, 151.213337 ],
+            "name": "Cook And Phillip Sydney East",
+            "url": "https://aqicn.org/city/australia/nsw/cook-and-phillip/sydney-east"
+        },
+        "dominentpol": "neph",
+        "iaqi": {
+            "co": { "v": 1.2 },
+            "h": { "v": 64.3 },
+            "neph": { "v": 11 }, 
+            "no2": { "v": 22.3 },
+            "o3": { "v": 3.2 },
+            "p": { "v": 1009.3 },
+            "pm10": { "v": 8 },
+            "pm25": { "v": 10 },
+            "so2": { "v": 1.5 },
+            "t": { "v": 18.7 },
+            "w": { "v": 0.6 },
+            "wg": { "v": 4.6 }
+        },
+        "time": { "s": "2020-04-20 22:00:00", "tz": "+10:00", "v": 1587420000},
+        "debug": { "sync": "2020-04-20T21:29:29+09:00"}}
+}
+```
 
 ```
 https://api.data.gov.sg/v1/environment/psi/?date=2017-01-01
