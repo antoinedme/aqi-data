@@ -8,7 +8,7 @@ Disability-adjusted life years or 'DALYs' have been used in this report to quant
 
 Quantifying the impact of asthma in terms of its burden, measured as DALYs, allows relative valuation of the impact of this disease-both overall and in subgroups of society-relative to other diseases. This has important consequences for health decision-making and planning processes. This report provides an indication of opportunities for health gain and will help guide the formation of health policy in relation to asthma. For example, interventions to reduce the Indigenous health gap in chronic respiratory disease burden and to improve the uptake of the key elements of effective asthma management-namely, a written asthma action plan and regular use of medications that control the disease and prevent exacerbations-represent two strategies likely to lead to reduced burden of disease attributable to asthma.
 
-## How to find data?
+## How to find data? (and retrive the data)
 
 Challenges faced by open data platforms:
 - Make accurate and real-time transport data available to the public
@@ -17,11 +17,11 @@ Challenges faced by open data platforms:
 
 ![Data Providers](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/ressources/open-data-apis.png)
 
-The World Air Quality Project: https://aqicn.org
+#### The World Air Quality Project: https://aqicn.org
 
 In March 2020, real-time Air Quality information is available for than 12,000 stations in 1000 major cities from 100 countries, thanks to the huge effort from the world EPAs (Environmental Protection Agencies).
 
-GET Method to retrieve JSON Data from the platform:
+`GET` Method to retrieve JSON Data from the platform:
 ```
 https://api.waqi.info/feed/YOUR_CITY/?token=TOKEN_KEY
 ```
@@ -62,11 +62,77 @@ Example of JSON data received from: `api.waqi.info`
 }
 ```
 
+#### Your country open data (case study: Singapore)
+
+Most of the countries also maintain their own public open data platforms.
+We will have a look at Singapore's data, available at: `https://api.data.gov.sg`
+
+The API call doesn't need any token, you can directly call the public API on your app with the `GET` Method:
 ```
-https://api.data.gov.sg/v1/environment/psi/?date=2017-01-01
+https://api.data.gov.sg/v1/environment/psi/?date=2020-01-01
 ```
 
-## How to use them?
+The result message will also be a JSON format in two sections: 
+The first section is the Stations coordinates: (note an additional region has been created to generate a national mean)
+```JSON
+{
+    "region_metadata": [
+        {"name": "west",
+            "label_location": { "latitude": 1.35735, "longitude": 103.7 }
+        },
+        {"name": "national",
+            "label_location": { "latitude": 0, "longitude": 0 }
+        },
+        {"name": "east",
+            "label_location": { "latitude": 1.35735, "longitude": 103.94 }
+        },
+        {"name": "central",
+            "label_location": { "latitude": 1.35735, "longitude": 103.82 }
+        },
+        {"name": "south",
+            "label_location": { "latitude": 1.29587, "longitude": 103.82 }
+        },
+        {"name": "north",
+            "label_location": { "latitude": 1.41803, "longitude": 103.82 }
+        }],
+```
+Followed by:
+
+```JSON
+
+"items": [
+        {
+            "timestamp": "2020-01-01T01:00:00+08:00",
+            "update_timestamp": "2020-01-01T01:08:52+08:00",
+            "readings": {
+                "o3_sub_index": {
+                    "west": 10,
+                    "national": 16,
+                    "east": 12,
+                    "central": 16,
+                    "south": 12,
+                    "north": 15
+                },
+                "pm10_twenty_four_hourly": {
+                    "west": 21,
+                    "national": 22,
+                    "east": 22,
+                    "central": 18,
+                    "south": 22,
+                    "north": 18
+                },
+```
+
+Other readings following are: `pm10_sub_index`, `co_sub_index`, `pm25_twenty_four_hourly`, `so2_sub_index`, `co_eight_hour_max`, `no2_one_hour_max`, `so2_twenty_four_hourly`, `pm25_sub_index`, `psi_twenty_four_hourly`, `o3_eight_hour_max`. Items are for hourly timestamp:
+
+```JSON
+            "timestamp": "2020-01-01T02:00:00+08:00",
+            "update_timestamp": "2020-01-01T02:08:52+08:00",
+            "readings": 
+```
+
+
+## How to use them? 
 
 Air Quality Data can retrieved as Station Data (JSON, CSV, XLS TABLES) or as maps (GeoJSON, SHP). We will investigate different types.
 
