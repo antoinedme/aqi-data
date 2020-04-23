@@ -172,11 +172,13 @@ This dataset provided by NASA ingest satellite- and ground-based observational d
 
 ![Innovation](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide11.jpeg)
 
-Read the article: https://www.forbes.com/sites/tracybrower/2020/01/05/how-to-jump-start-your-innovation-8-ways-to-be-more-innovative/#237ed60a3a12
-### How To Jump-Start Your Innovation: 8 Ways To Be More Innovative
-Tracy Brower
 
+### What to do now? 
 
+- [ ] Read: https://www.forbes.com/sites/tracybrower/2020/01/05/how-to-jump-start-your-innovation-8-ways-to-be-more-innovative/#237ed60a3a12
+- [ ] Code: https://towardsdatascience.com/visualizing-air-pollution-with-folium-maps-4ce1a1880677
+- [ ] Code: https://www.kaggle.com/arjunshakdher/data-mining-ml-using-air-quality-data
+- [ ] Code: https://www.kaggle.com/sharmamanali/air-quality-index-analysis-ml-visualisation
+- [ ] Read: https://medium.com/the-artificial-impostor/visualizing-air-quality-data-2ec16268711e
 
-https://www.forbes.com/sites/tracybrower/2020/01/05/how-to-jump-start-your-innovation-8-ways-to-be-more-innovative/#237ed60a3a12
-
+To be updated with new viz/ml notebooks very soon very soon!
