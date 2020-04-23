@@ -2,6 +2,15 @@
 
 > This repository is under construction. It has the objective to put together interesting materials about AQI. The notebook is a quick example on how to retrieve AQI Singapore and to manipulate (just a bit) the JSON response.
 
+What I am doing now:
+- [ ] Read: https://www.forbes.com/sites/tracybrower/2020/01/05/how-to-jump-start-your-innovation-8-ways-to-be-more-innovative/#237ed60a3a12
+- [ ] Code: https://towardsdatascience.com/visualizing-air-pollution-with-folium-maps-4ce1a1880677
+- [ ] Code: https://www.kaggle.com/arjunshakdher/data-mining-ml-using-air-quality-data
+- [ ] Code: https://www.kaggle.com/sharmamanali/air-quality-index-analysis-ml-visualisation
+- [ ] Read: https://medium.com/the-artificial-impostor/visualizing-air-quality-data-2ec16268711e
+- [x] Code: https://github.com/antoinedme/aqi-data/blob/master/notebooks/Paris%20ML.ipynb
+
+
 ## Health Impact
 
 Disability-adjusted life years or 'DALYs' have been used in this report to quantify the burden of asthma. The DALY describes the number of years of healthy life lost due to disability or premature death. One DALY represents one lost year of healthy life.
@@ -171,14 +180,5 @@ This dataset provided by NASA ingest satellite- and ground-based observational d
 ## What insights?
 
 ![Innovation](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide11.jpeg)
-
-
-### What to do now? 
-
-- [ ] Read: https://www.forbes.com/sites/tracybrower/2020/01/05/how-to-jump-start-your-innovation-8-ways-to-be-more-innovative/#237ed60a3a12
-- [ ] Code: https://towardsdatascience.com/visualizing-air-pollution-with-folium-maps-4ce1a1880677
-- [ ] Code: https://www.kaggle.com/arjunshakdher/data-mining-ml-using-air-quality-data
-- [ ] Code: https://www.kaggle.com/sharmamanali/air-quality-index-analysis-ml-visualisation
-- [ ] Read: https://medium.com/the-artificial-impostor/visualizing-air-quality-data-2ec16268711e
 
 To be updated with new viz/ml notebooks very soon very soon!
