@@ -181,4 +181,10 @@ This dataset provided by NASA ingest satellite- and ground-based observational d
 
 ![Innovation](https://raw.githubusercontent.com/antoinedme/aqi-data/master/presentation/Slide11.jpeg)
 
+An interesting possible outcome of similar datasets:
+
+A real-time visualisation of the Greenhouse Gas (in terms of CO2 equivalent) footprint of electricity consumption built with d3.js and mapbox GL, maintained by Tomorrow. Try it out at http://www.electricitymap.org, or check the repo:
+https://github.com/antoinedme/electricitymap-contrib
+
+
 To be updated with new viz/ml notebooks very soon very soon!
